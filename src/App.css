@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(0, 0, 0) !important;
+}
+.form{  
+  margin: 30px 0;
+padding: 12px 20px;
+background-color: #fff;
+border-radius: 15px;
+box-shadow: rgb(0 0 0 / 10%) 0px 10px 15px -3px;
+
+}
+
+.form .input-box {
+  margin: 8px 0 10px;
+}
+
+
+
+.input-box {
+  margin: 15px 0;
+  position: relative;
+}
+
+.input-box label {
+  font-size: 17px;
+}
+
+.input-box .input {
+  width: 100%;
+  outline: none;
+  font-size: 20px;
+  margin: 4px 0;
+  padding: 3px 4px;
+  border: 1px solid #767cd6;
+  border-radius: 7px;
+}
+.input-box .color{
+  height: 44px;
+}
+.input-box button {
+  float: right;
+  padding: 10px 20px;
+  border: none;
+  width: 100%;
+  outline: none;
+  background-color: #767cd6;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 20px 0px 30px 0;
+}
+
+.data-table svg {
+  font-size: 22px;
+}
+
+.data-table .delete svg {
+  color: red;
+  text-align: center;
+  cursor: pointer;
+}
+
+.data-table .edit svg {
+  color: green;
+}
+
+.input-box .input::-webkit-inner-spin-button {
+  appearance: none !important;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.data-table img {
+  width: 100px;
+  height: 50px;
+}
+
+.data-table .capitle {
+  text-transform: capitalize;
+}
+
+
+
+table{
+  background-color: #fff;
+}
+table tr td {
+  white-space: nowrap;
+}
+.model{
+  text-align: center;
+}
+
+.model img{
+  width: 150px;
+padding: 10px 0;
+}
+
+
+.switch .slider.round {
+  border-radius: 34px;
+}
+
+.switch .slider.round:before {
+  border-radius: 50%;
+}
+
+#round {
+  border-radius: 34px;
+}
+
+#round:before {
+  border-radius: 50%;
+} */
+
+
+.check-box {
+	transform: scale(2);
+  
+}
+
+
+.check-box input[type="checkbox"] {
+    position: relative;
+    appearance: none;
+    width: 60px;
+    height: 30px;
+    background: #ccc;
+    border-radius: 50px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+input:checked[type="checkbox"] {
+    background: #767cd6;
+}
+
+input[type="checkbox"]::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+input:checked[type="checkbox"]::after {
+    left: 50%;
+}
+
